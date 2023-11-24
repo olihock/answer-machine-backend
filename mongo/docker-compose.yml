@@ -9,7 +9,7 @@ services:
             - MONGO_INITDB_ROOT_USERNAME=${MONGO_DB_USERNAME}
             - MONGO_INITDB_ROOT_PASSWORD=${MONGO_DB_PASSWORD}
         volumes:
-            - ~/ws/answer-machine-backend-volume:/data/db
+            - /var/volumes/mongo-db:/data/db
         networks:
             - mongo
     mongo-express:

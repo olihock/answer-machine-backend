@@ -4,3 +4,5 @@ volumes/
 **/*.env
 **/*.sh
 answer-machine-backend-volume/
+**/volumes/
+venv/
